@@ -9,18 +9,18 @@ Installation
 ### 👉 One-liner (if you trust me):
 
 ```bash
-curl -fsSL https://dotfiles.wook.kr/etc/install | bash
+curl -fsSL https://dotfiles.sleepykitty.kr/etc/install | bash
 ```
 
 <details><summary>
-💡 (Tip) You only need to remember <code>curl dotfiles.wook.kr</code> (Click to expand)
+💡 (Tip) You only need to remember <code>curl dotfiles.sleepykitty.kr</code> (Click to expand)
 </summary></p>
 
-Every file is accessible through `dotfiles.wook.kr` (via `curl -L` or `wget`), e.g.,
+Every file is accessible through `dotfiles.sleepykitty.kr` (via `curl -L` or `wget`), e.g.,
 
-* https://dotfiles.wook.kr/vimrc
-* https://dotfiles.wook.kr/vimrc?raw=true
-* https://dotfiles.wook.kr/bin/tb
+* https://dotfiles.sleepykitty.kr/vimrc
+* https://dotfiles.sleepykitty.kr/vimrc?raw=true
+* https://dotfiles.sleepykitty.kr/bin/tb
 
 <p></details>
 
@@ -29,7 +29,7 @@ Every file is accessible through `dotfiles.wook.kr` (via `curl -L` or `wget`), e
 </summary><p>
 
 ```bash
-$ git clone --recursive https://github.com/wookayin/dotfiles.git ~/.dotfiles
+$ git clone --recursive https://github.com/pjhh88/dotfiles.git ~/.dotfiles
 $ cd ~/.dotfiles && python install.py
 ```
 
